@@ -1,0 +1,116 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(25, 25, 25);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.container :hover {
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+}
+
+.container :hover .img-button {
+    width: 75px;
+    height: 75px;
+}
+
+.button-for-user {
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    border: solid 5px white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.img-button {
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.img-select {
+    height: 50px;
+    width: 50px;
+}
+
+.result {
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.result img {
+    width: 100px;
+    height: 100px;
+}
+
+.container-special {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.container-special :hover {
+    height: 55px;
+    width: 55px;
+    border-radius: 80px;
+}
+
+.container-special :hover .img-button-special {
+    width: 25px;
+    height: 25px;
+}
+
+.button-for-user-special {
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 75px;
+    border: solid 3px white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.img-button-special {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+@media screen and (max-width:1024px) {
+    h1 {
+        font-size: 30px;
+    }
+
+
+}
